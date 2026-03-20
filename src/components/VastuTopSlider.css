@@ -1,0 +1,49 @@
+.vastu-stripe-wrapper{
+
+background-color:#1A1A1A;
+
+color:#E0B973;
+
+padding:.8rem 0;
+
+font-weight:600;
+
+font-size:.95rem;
+
+border-bottom:1px solid #E0B973;
+
+position:sticky;
+
+top:0;
+
+z-index:10001;
+
+overflow:hidden;
+
+white-space:nowrap;
+
+font-family:"Montserrat",sans-serif;
+
+}
+
+.vastu-stripe-text{
+
+display:inline-block;
+
+will-change:transform;
+
+animation:vastu-marquee 22s linear infinite;
+
+}
+
+@keyframes vastu-marquee{
+
+0%{
+transform:translateX(0);
+}
+
+100%{
+transform:translateX(-50%);
+}
+
+}

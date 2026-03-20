@@ -1,0 +1,176 @@
+.v-hero-speed {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  padding: 20px 0;
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  width: 95%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.v-badge-speed {
+  display: inline-block;
+  background-color: #6a4c93;
+  border: 1px solid #e0b973;
+  padding: 10px 24px;
+  border-radius: 50px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  margin-bottom: 2.5rem;
+  text-transform: uppercase;
+}
+
+.v-hero-speed h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  line-height: 1.3;
+  font-size: clamp(1.8rem, 5vw, 3.2rem);
+  margin-bottom: 1.5rem;
+}
+
+.text-highlight {
+  color: #e0b973;
+}
+
+.v-hero-sub-speed {
+  font-family: "Poppins", sans-serif;
+  font-size: clamp(1rem, 2vw, 1.2rem);
+  line-height: 1.6;
+  max-width: 1000px;
+  margin: 0 auto 2.5rem;
+  color: #f0f0f0;
+}
+
+.v-speed-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: center;
+  text-align: left;
+}
+
+.v-speed-l {
+  flex: 1.3;
+  min-width: 300px;
+}
+
+.v-speed-r {
+  flex: 1;
+  min-width: 300px;
+}
+
+.v-speed-vid {
+  width: 100%;
+  aspect-ratio: 16/9;
+  border: 4px solid #e0b973;
+  background: #000;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.v-speed-vid img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.v-speed-card {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 15px;
+  color: #1a1a1a;
+}
+
+.v-speed-card h3 {
+  text-align: center;
+  margin-bottom: 1.2rem;
+  color: #2d1b3d;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
+.v-speed-det-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.v-speed-info {
+  background: #f8f5f0;
+  padding: 12px;
+  border-radius: 8px;
+}
+
+.v-speed-info span {
+  display: block;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.v-speed-info p {
+  font-size: 14px;
+  font-weight: 800;
+  margin: 0;
+}
+
+.warning {
+  text-align: center;
+  font-size: 13px;
+  font-weight: 700;
+  color: #d63031;
+}
+
+.v-speed-btn {
+  background-color: #e0b973;
+  color: #2d1b3d;
+  padding: 18px 40px;
+  font-size: 18px;
+  font-weight: 800;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.cta-wrapper {
+  margin-top: 3rem;
+}
+
+@keyframes v-pulse-fast {
+  0% {
+    box-shadow: 0 0 0 0 rgba(224, 185, 115, 0.7);
+  }
+  100% {
+    box-shadow: 0 0 0 15px rgba(224, 185, 115, 0);
+  }
+}
+
+.v-pulse {
+  animation: v-pulse-fast 2s infinite;
+}
+
+.v-speed-btn:hover {
+  background-color: #1a1a1a;
+  color: #e0b973;
+  transform: translateY(-3px);
+}
+
+@media (max-width: 768px) {
+  .v-speed-grid {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .v-speed-btn {
+    width: 90%;
+  }
+}

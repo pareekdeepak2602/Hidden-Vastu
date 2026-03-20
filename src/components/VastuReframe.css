@@ -1,0 +1,111 @@
+.vastu-reframe-wrapper {
+  padding: 2.8rem 0;
+  background: #ffffff;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.vastu-reframe-box {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2.4rem 2.6rem;
+  border-radius: 26px;
+  background: linear-gradient(
+    135deg,
+    rgba(45,27,61,0.96),
+    rgba(106,76,147,0.96)
+  );
+  border: 1px solid rgba(224,185,115,0.35);
+  box-shadow: 0 25px 60px rgba(45,27,61,0.22);
+}
+
+.vastu-reframe-title {
+  font-family: "Poppins", sans-serif;
+  font-size: clamp(1.7rem,3vw,2.7rem);
+  font-weight: 900;
+  color: #E0B973;
+  line-height: 1.2;
+  margin-top: 0;
+  margin-bottom: 1.4rem;
+}
+
+.vastu-reframe-sub {
+  font-size: 1.2rem;
+  font-weight: 650;
+  color: rgba(255,255,255,0.88);
+  line-height: 1.7;
+  margin-bottom: 0.85rem;
+}
+
+.vastu-reframe-sub2 {
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: rgba(255,255,255,0.96);
+  line-height: 1.7;
+  margin-bottom: 1.8rem;
+}
+
+.vastu-reframe-pill {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+
+  padding: 1.35rem 1.55rem;
+  border-radius: 16px;
+
+  background: #ffffff;
+  border: 1px solid rgba(0,0,0,0.08);
+
+  color: #1A1A1A;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.22rem;
+  font-weight: 500;
+  line-height: 1.45;
+
+  text-align: center;
+
+  box-shadow: 0 14px 35px rgba(0,0,0,0.12);
+}
+
+.vastu-reframe-outside {
+  margin-top: 2rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 900;
+  color: #1A1A1A;
+}
+
+@media (max-width:768px){
+
+  .vastu-reframe-box{
+    padding:1.8rem 1.2rem;
+    border-radius:20px;
+  }
+
+  .vastu-reframe-title{
+    font-size:1.5rem;
+  }
+
+  .vastu-reframe-sub,
+  .vastu-reframe-sub2{
+    font-size:0.98rem;
+    line-height:1.6;
+    color:rgba(255,255,255,0.92);
+  }
+
+  .vastu-reframe-pill{
+    font-size:1rem;
+    padding:6px;
+    border-radius:14px;
+  }
+
+  .vastu-reframe-outside{
+    font-size:1rem;
+    margin-top:1.4rem;
+    padding:0 12px;
+  }
+
+}

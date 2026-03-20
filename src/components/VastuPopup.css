@@ -1,0 +1,138 @@
+.v-popup-overlay{
+position:fixed;
+inset:0;
+background:rgba(0,0,0,.85);
+display:flex;
+align-items:center;
+justify-content:center;
+z-index:9999999;
+padding:15px;
+font-family:'Montserrat',sans-serif;
+}
+
+.v-popup-modal{
+width:100%;
+max-width:650px;
+background:#ffffff;
+border-radius:12px;
+overflow:hidden;
+box-shadow:0 30px 60px rgba(0,0,0,.5);
+}
+
+.v-popup-head{
+background:#2D1B3D;
+padding:30px 25px;
+border-bottom:4px solid #E0B973;
+border-top-left-radius:12px;
+border-top-right-radius:12px;
+}
+
+.v-popup-head h2{
+color:#E0B973;
+}
+
+.v-popup-head p{
+color:#ffffff;
+}
+
+.v-popup-close{
+position:absolute;
+right:15px;
+top:15px;
+background:rgba(255,255,255,.1);
+border:none;
+color:#fff;
+font-size:20px;
+cursor:pointer;
+width:35px;
+height:35px;
+border-radius:6px;
+}
+
+.v-popup-body{
+padding:30px;
+}
+
+.v-form-grid{
+display:grid;
+grid-template-columns:repeat(2,minmax(0,1fr));
+gap:20px;
+width:100%;
+}
+
+.v-full-row{
+grid-column:1/-1;
+}
+
+.v-form-field label{
+font-family:'Poppins';
+font-weight:800;
+font-size:12px;
+color:#2D1B3D;
+margin-bottom:8px;
+display:block;
+}
+
+.v-form-field input,
+.v-form-field select{
+width:100%;
+padding:12px 15px;
+border-radius:8px;
+border:1px solid #ddd;
+box-sizing:border-box;
+display:block;
+}
+.v-form-field{
+width:100%;
+min-width:0;
+}
+.v-submit-btn{
+background:#E0B973;
+color:#2D1B3D;
+width:100%;
+padding:16px;
+border-radius:12px;
+font-family:'Poppins';
+font-weight:800;
+font-size:17px;
+border:4px solid #F6EAD5;
+cursor:pointer;
+margin-top:25px;
+}
+.v-popup-modal{
+position:relative;
+width:100%;
+max-width:650px;
+background:#ffffff;
+border-radius:12px;
+overflow:hidden;
+box-shadow:0 30px 60px rgba(0,0,0,.5);
+}
+
+.v-radio-group{
+display:flex;
+flex-direction:column;
+gap:12px;
+margin-top:10px;
+}
+
+.v-radio-item{
+display:flex;
+align-items:center;
+gap:10px;
+font-size:16px;
+cursor:pointer;
+}
+
+.v-radio-item input{
+width:18px;
+height:18px;
+cursor:pointer;
+}
+@media (max-width:640px){
+
+.v-form-grid{
+grid-template-columns:1fr;
+}
+
+}
