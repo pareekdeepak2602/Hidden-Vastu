@@ -50,7 +50,7 @@ export default function VastuHero({
               <div className="v-speed-det-grid">
                 <div className="v-speed-info">
                   <span>📅 Date</span>
-                  <p>Sun, 22 March 2026</p>
+                  <p>Sun, 29 March 2026</p>
                 </div>
 
                 <div className="v-speed-info">

@@ -83,7 +83,7 @@ mode:"no-cors",
 body:JSON.stringify(data)
 })
 
-window.location.href="https://vastuwithsomiil.com/thank-you/"
+window.location.href="https://vastuwithsomiil.com/vip-page/"
 
 }
 const handleNoSubmit = async (e)=>{
